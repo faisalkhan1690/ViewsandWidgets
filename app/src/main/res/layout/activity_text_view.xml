@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
     tools:context="com.example.faisalkhan.viewsandwidget.TextViewActivity">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
@@ -17,12 +16,22 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:title="@string/textview" />
 
-    <Button
+    <TextView
+        android:id="@+id/tv_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="Normal Toast"
-        android:onClick="ShowNormalToast"/>
-
+        android:cursorVisible="false"
+        android:editable="false"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:hint="Hi i am hint"
+        android:inputType="text"
+        android:text="Hi i am TextView"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:typeface="normal">
+    </TextView>
 
 </LinearLayout>

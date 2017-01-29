@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_toast"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.faisalkhan.viewsandwidget.ToastActivity">
@@ -15,4 +17,12 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:title="@string/toast" />
 
-</RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="Normal Toast"
+        android:onClick="ShowNormalToast"/>
+
+
+</LinearLayout>
