@@ -7,13 +7,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.faisalkhan.viewsandwidget.ButtonActivity">
+
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:minHeight="?android:attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:title="@string/view"/>
+        app:title="@string/buttons"/>
     <Button
         android:id="@+id/btn_xml_click"
         android:layout_width="wrap_content"

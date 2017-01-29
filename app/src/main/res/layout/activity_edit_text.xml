@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_text_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_text"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
-    tools:context="com.example.faisalkhan.viewsandwidget.TextViewActivity">
+    tools:context="com.example.faisalkhan.viewsandwidget.EditTextActivity">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -15,14 +14,21 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?android:attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:title="@string/textview" />
+        app:title="@string/edit_text" />
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Enter message here" />
+
 
     <Button
+        android:id="@+id/btn_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="Normal Toast"
-        android:onClick="ShowNormalToast"/>
-
-
+        android:layout_gravity="center"
+        android:onClick="showToast"
+        android:text="Enter text in EditText and click me " />
 </LinearLayout>

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import java.util.ArrayList;
 
@@ -57,27 +58,27 @@ public class MainActivity extends AppCompatActivity {
 
                     case 2: //Button
                         //start intent to reach activity where you can see how to use Button
-                        startActivity(new Intent(MainActivity.this,MainActivity.class));
+                        startActivity(new Intent(MainActivity.this,ButtonActivity.class));
                         break;
 
                     case 3: //ImageView
                         //start intent to reach activity where you can see how to use ImageView
-                        startActivity(new Intent(MainActivity.this,MainActivity.class));
+                        startActivity(new Intent(MainActivity.this,ImageViewActivity.class));
                         break;
 
                     case 4: //EditText
                         //start intent to reach activity where you can see how to use EditText
-                        startActivity(new Intent(MainActivity.this,MainActivity.class));
+                        startActivity(new Intent(MainActivity.this,EditTextActivity.class));
                         break;
 
                     case 5: //Spinners
                         //start intent to reach activity where you can see how to use Spinners
-                        startActivity(new Intent(MainActivity.this,MainActivity.class));
+                        startActivity(new Intent(MainActivity.this,SpinnerActivity.class));
                         break;
 
                     case 6: //Toasts
                         //start intent to reach activity where you can see how to use Toasts
-                        startActivity(new Intent(MainActivity.this,MainActivity.class));
+                        startActivity(new Intent(MainActivity.this,ToastActivity.class));
                         break;
                 }
             }

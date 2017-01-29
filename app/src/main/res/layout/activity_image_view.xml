@@ -2,12 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_text_view"
+    android:id="@+id/activity_image_view"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    tools:context="com.example.faisalkhan.viewsandwidget.TextViewActivity">
+    tools:context="com.example.faisalkhan.viewsandwidget.ImageViewActivity">
 
     <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -15,14 +14,16 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?android:attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:title="@string/textview" />
+        app:title="@string/image_view"/>
 
-    <Button
+    <ImageView
+        android:id="@+id/iv_sample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="Normal Toast"
-        android:onClick="ShowNormalToast"/>
-
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:contentDescription="@string/sample_image_view"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:src="@mipmap/ic_launcher"/>
 
 </LinearLayout>
