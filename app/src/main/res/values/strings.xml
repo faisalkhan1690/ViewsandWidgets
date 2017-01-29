@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Views and Widget</string>
+    <string name="views_and_widget">Views and Widget</string>
+    <string name="textview">TextView</string>
+    <string name="view">View</string>
+</resources>
