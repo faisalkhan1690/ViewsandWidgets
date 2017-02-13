@@ -13,7 +13,7 @@ This sample covers following things
 
 For more details follow doc
 --------------
-https://docs.google.com/a/kelltontech.com/document/d/1Vv7YsvsfCqb8VqcIg5hxEKfvdCK12CFEdAuDCc_3qus/edit?usp=sharing
+https://docs.google.com/document/d/1Vv7YsvsfCqb8VqcIg5hxEKfvdCK12CFEdAuDCc_3qus/edit?usp=sharing
 
 Pre-requisites
 --------------
