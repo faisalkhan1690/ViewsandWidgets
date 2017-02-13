@@ -11,9 +11,41 @@ This sample covers following things
 6. Spinner 
 7. Toast 
 
-For more info follow doc
+For more details follow doc
+--------------
 https://docs.google.com/a/kelltontech.com/document/d/1Vv7YsvsfCqb8VqcIg5hxEKfvdCK12CFEdAuDCc_3qus/edit?usp=sharing
 
+Pre-requisites
+--------------
+- Android SDK v23
+- Android Build Tools v23.0.2
+
+References
+--------------
+https://developer.android.com/reference/android/view/View.html
+https://developer.android.com/training/custom-views/create-view.html
+https://developer.android.com/reference/android/view/package-summary.html
+https://developer.android.com/reference/android/widget/TextView.html
+https://www.tutorialspoint.com/android/android_textview_control.htm
+https://developer.android.com/guide/topics/ui/controls/button.html
+https://developer.android.com/reference/android/widget/Button.html
+https://www.tutorialspoint.com/android/android_button_control.htm
+https://developer.android.com/reference/android/widget/ImageView.html
+https://github.com/codepath/android_guides/wiki/Working-with-the-ImageView
+https://developer.android.com/reference/android/widget/EditText.html
+https://developer.android.com/training/keyboard-input/style.html
+https://www.tutorialspoint.com/android/android_edittext_control.htm
+https://developer.android.com/guide/topics/ui/controls/spinner.html
+https://developer.android.com/reference/android/widget/Spinner.html
+https://www.tutorialspoint.com/android/android_spinner_control.html
+https://developer.android.com/guide/topics/ui/notifiers/toasts.html
+https://developer.android.com/reference/android/widget/Toast.html
+http://www.javatpoint.com/android-toast-example
+
+
+
+Screenshots
+--------------
 ![screenshot_2017-01-30-09-46-54](https://cloud.githubusercontent.com/assets/7554816/22412175/81aa6c6c-e6d1-11e6-8005-1acbf2641080.png)
 ![screenshot_2017-01-30-09-46-58](https://cloud.githubusercontent.com/assets/7554816/22412176/82273288-e6d1-11e6-815f-5b0f1965ef72.png)
 ![screenshot_2017-01-30-09-47-02](https://cloud.githubusercontent.com/assets/7554816/22412177/8294b092-e6d1-11e6-891b-8594803831aa.png)
